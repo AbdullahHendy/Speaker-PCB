@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projects\Amplifier Project\PCB\Amplifier\Amplifier.kicad_sch</source>
+    <date>6/16/2022 2:51:03 PM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LM384 Audio Amplifier Project</title>
+        <company>California State University Northridge</company>
+        <rev>00</rev>
+        <date>2022-06-16</date>
+        <source>Amplifier.kicad_sch</source>
+        <comment number="1" value="Abdullah Hendy"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86a4b13d-89b8-4a9d-bef7-e0ea4cab08d4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab10ade7-7865-4389-a922-44516b523f23</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f298e6ce-f143-4fd9-8820-3f44d3f747e5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b0bb955-e2d2-442f-a505-e52e1d38bc97</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f5d1724-d255-4984-93f5-d6d38ca3b5f0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>5.6u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dc7bc28-0093-4575-b62b-2df7b38019c6</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09572c46-948b-48c9-8869-8ea4333ac7f4</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>560u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd522c8a-7613-4fae-8ff6-ea41919446b6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Red RA LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8574e356-5328-439d-a2e1-f8547d22e6f5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SA24A</value>
+      <footprint>Diode_THT:D_DO-15_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65408920-858f-401c-b5cf-f38b7d10b720</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0064a017-826c-48bf-bed2-30459c227a2e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1866fd02-14b6-4cd9-8eba-babbc4a140f4</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>998 OHM</value>
+      <footprint>28C0236-0EW-10:FB_28C0236-0EW-10</footprint>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdb3ccaf-1b14-4f6a-90b2-765551391ed8</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4978de2b-056e-4fda-a77a-2c0daa2cb877</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1af14e85-8b06-4400-bb5f-8d86a3a239be</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>463f9621-bccd-41c7-a92b-9b2d13734ba3</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4abd24ba-b7d8-4ba3-bd60-a8bfa93a2507</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>PJ-063AH</value>
+      <footprint>CUI_PJ-063AH</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="PARTREV">1.02</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="PJ-063AH" part="PJ-063AH" description=""/>
+      <property name="PARTREV" value="1.02"/>
+      <property name="MANUFACTURER" value="CUI INC"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15ac9b60-57d0-4c11-91ce-844d5e61cf61</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SJ1-3543N</value>
+      <footprint>CUI_SJ1-3543N</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="PARTREV">1.01</field>
+        <field name="STANDARD">Manufacturer recommendation</field>
+      </fields>
+      <libsource lib="SJ1-3543N" part="SJ1-3543N" description=""/>
+      <property name="MANUFACTURER" value="CUI"/>
+      <property name="PARTREV" value="1.01"/>
+      <property name="STANDARD" value="Manufacturer recommendation"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca7ae360-0588-45ea-8d30-81a9a2abb0d9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>B02B-XASK-1LFSN</value>
+      <footprint>footprints1:B02B-XASK-1LFSN</footprint>
+      <libsource lib="2022-06-12_21-25-45" part="B02B-XASK-1LFSN" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26c3f106-a1fb-44d1-92c4-15d0b6d82518</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.42k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1c0516b-1f7b-4170-aee9-6d890b895d77</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>3.57k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12e8a53d-5645-4bce-a826-7dc8d100c537</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>240</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5583139-6e40-4175-81ce-131fd92dfdd5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2.7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeb1a225-9a2f-4a0b-9f95-3d59c812f819</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>PTV09A-2020F-A103:PTV09A2020FA104</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74ec20ab-5175-4755-b093-150b3dd3aa19</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>PB400EEQR1BLK</value>
+      <footprint>PB400EEQR1BLK:PB400EEQR1BLK</footprint>
+      <libsource lib="PB400EEQR1BLK" part="PB400EEQR1BLK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa1a18f8-000a-4d8f-a3e1-f6847794eb4c</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>Keystone 5000:TestPoint_Keystone_5000-5004_Miniature_01</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45033890-6396-4ade-9c3a-dbb9d35d7b39</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>Keystone 5000:TestPoint_Keystone_5000-5004_Miniature_01</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2c95d3c-5321-4c62-a4af-00676fa2dffb</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>Keystone 5000:TestPoint_Keystone_5000-5004_Miniature_01</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7edf4210-4fe9-49ad-a006-f309e6c94c23</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>Keystone 5000:TestPoint_Keystone_5000-5004_Miniature_01</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b420f53d-9f50-4ef8-b6c2-a40694740663</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM317_TO-220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM317_TO-220" description="1.5A 35V Adjustable Linear Regulator, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e42ca7fa-4958-4509-b642-95d31aa9fe0c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM384</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm384.pdf</datasheet>
+      <libsource lib="Amplifier_Audio" part="LM384" description="5W Audio Power Amplifier, PDIP-14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Amplifier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a2fff45-d609-4bb1-a72e-a859bcf75488</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2022-06-12_21-25-45" part="B02B-XASK-1LFSN">
+      <footprints>
+        <fp>CONN_B02B-XASK-1LFSN_JST</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">B02B-XASK-1LFSN</field>
+        <field name="Footprint">CONN_B02B-XASK-1LFSN_JST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Audio" part="LM384">
+      <description>5W Audio Power Amplifier, PDIP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm384.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM384</field>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm384.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BYPASS" type="passive"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="VS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite_Small">
+      <description>Inductor with ferrite core, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4002">
+      <description>100V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4002</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PB400EEQR1BLK" part="PB400EEQR1BLK">
+      <footprints>
+        <fp>PB400EEQR1BLK_EWI</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">PB400EEQR1BLK</field>
+        <field name="Footprint">PB400EEQR1BLK_EWI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PJ-063AH" part="PJ-063AH">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">PJ-063AH</field>
+        <field name="Footprint">CUI_PJ-063AH</field>
+        <field name="PARTREV">1.02</field>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="S1" name="SHIELD" type="power_out"/>
+        <pin num="S2" name="SHIELD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_TO-220">
+      <description>1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LM317_TO-220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm317.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SJ1-3543N" part="SJ1-3543N">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ1-3543N</field>
+        <field name="Footprint">CUI_SJ1-3543N</field>
+        <field name="MANUFACTURER">CUI</field>
+        <field name="PARTREV">1.01</field>
+        <field name="STANDARD">Manufacturer recommendation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2022-06-12_21-25-45">
+      <uri>C:/Projects/Amplifier Project/KiCAD Libraries/B02B-XASK-1-LF-SN-/KiCAD/2022-06-12_21-25-45/2022-06-12_21-25-45.kicad_sym</uri>
+    </library>
+    <library logical="Amplifier_Audio">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Amplifier_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PB400EEQR1BLK">
+      <uri>C:/Projects/Amplifier Project/KiCAD Libraries/PB400EEQR1BLK/PB400EEQR1BLK.kicad_sym</uri>
+    </library>
+    <library logical="PJ-063AH">
+      <uri>C:/Projects/Amplifier Project/KiCAD Libraries/PJ-063AH/PJ-063AH.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SJ1-3543N">
+      <uri>C:/Projects/Amplifier Project/KiCAD Libraries/SJ1-3543N/SJ1-3543N.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/24V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="input"/>
+    </net>
+    <net code="2" name="/24VSW">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="3" name="/24Vin">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="4" name="GNDREF">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="power_out"/>
+      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="BYPASS" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="8" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="13" name="VS">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="14" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="14" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U2-Pad13)">
+      <node ref="U2" pin="13" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

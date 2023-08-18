@@ -1,0 +1,3 @@
+3DX_CUI_DEVICES_Supplier: CUI Devices
+3DX_CUI_DEVICES_Description: Extruded Heat Sink, TO-220
+3DX_CUI_DEVICES_Model Number: HSE-B2111-038

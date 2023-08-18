@@ -1,0 +1,21 @@
+Circuit: * C:\Projects\Amplifier Project\Simulation\Draft1.asc
+
+.OP point found by inspection.
+
+Date: Sun Aug 28 18:16:13 2022
+Total elapsed time: 0.019 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2082
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 2
+fillins = 0
+solver = Normal
+Matrix Compiler1: off  [0.0]/0.0/0.0
+Matrix Compiler2: 96 bytes object code size  0.0/0.0/[0.0]
+
