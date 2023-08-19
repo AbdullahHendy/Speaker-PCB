@@ -22,20 +22,27 @@ The repository includes documentation for the design and fabrication files.
 
 ## Dependencies
 
+### Software
+
 * The project was developed on Windows 10 using KiCad 6.0
 * The libraries for the footprints and 3D models are included under the "KiCAD Libraries" directory
-* Add libraries to KiCad: (https://support.snapeda.com/en/articles/5995733-how-to-import-into-kicad-v6-and-later)
-* Add 3D models to KiCad: (https://support.snapeda.com/en/articles/3758108-how-to-import-a-3d-model-in-kicad)
+* [Add symbol/footprint libraries to KiCad](https://support.snapeda.com/en/articles/5995733-how-to-import-into-kicad-v6-and-later)
+* [Add 3D models to KiCad](https://support.snapeda.com/en/articles/3758108-how-to-import-a-3d-model-in-kicad)
+
+### Hardware
+
+* A 24V 1A power supply adapter is used to power up the speaker. A 24V 0.5A power supply adapter should also work with the possibility of lowering the performance 
+	* [23V 1A Power Supply Adapter suggestion](https://www.amazon.com/gp/product/B09281KTS8/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 
 ## Authors
 
+
 Contributors names and contact info
 
-ex. Abdullah Hendy 
-ex. [@AbdullahHendy](https://www.linkedin.com/in/abdullah-hendy/)
+[@AbdullahHendy](https://www.linkedin.com/in/abdullah-hendy/)
 
 ## Version History
 
 * 00
     * Initial version
-    * See (https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Documentation/Fixes_Improvements.docx) including important fixes and imporovements for later versions
+    * See this [important fixes and imporovements for later versions](https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Documentation/Fixes_Improvements.docx)
