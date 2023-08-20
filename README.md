@@ -7,15 +7,15 @@ Speaker With A Power Supply Circuit
 A complete design of a 5W class AB audio amplifier with a power supply circuit and a speaker. 
 The repository includes documentation for the design and fabrication files.
 
-**Schematic**
+### Schematic
 
 ![Schematic](https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Media/schematic.png)
 
-**Board Layout**
+### Board Layout
 
 ![Board Layout](https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Media/Layout.png)
 
-**3D View**
+### 3D View
 
 
 ![3D View](https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Media/3Dview.png)
@@ -36,8 +36,8 @@ The repository includes documentation for the design and fabrication files.
 
 ## Documentation
 * Full Documentation can be found [here](https://github.com/AbdullahHendy/Speaker-PCB/tree/main/Documentation)
-	* [Report]() explaining all design details and why most of design decisions were made
-    * See this [important fixes and imporovements for later versions](https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Documentation/Fixes_Improvements.docx)
+	* [Report](https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Documentation/Amplifier%20Project%20Report.pdf) explaining all design details and why most of design decisions were made
+    * See this [important fixes and imporovements for later versions](https://github.com/AbdullahHendy/Speaker-PCB/blob/main/Documentation/Fixes_Improvements.pdf)
     
 ## Authors
 
