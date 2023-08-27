@@ -1,6 +1,6 @@
 # Project Title
 
-Speaker With A Power Supply Circuit
+Class AB Amplifier Based Speakers With a Power Supply Circuit
 
 ## Description
 
