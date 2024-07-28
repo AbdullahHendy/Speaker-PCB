@@ -24,10 +24,11 @@ The repository includes documentation for the design and fabrication files.
 
 ### Software
 
-* The project was developed on Windows 10 using KiCad 6.0
-* The libraries for the footprints and 3D models are included under the "KiCAD Libraries" directory
-* [Add symbol/footprint libraries to KiCad](https://support.snapeda.com/en/articles/5995733-how-to-import-into-kicad-v6-and-later)
-* [Add 3D models to KiCad](https://support.snapeda.com/en/articles/3758108-how-to-import-a-3d-model-in-kicad)
+* The project was developed on Windows 10 using [KiCad 6.0](https://docs.kicad.org/6.0/)
+* The libraries for the footprints and 3D models are included under the "KiCAD Libraries" directory. Might need to import them to the project.
+* [Add symbol libraries to KiCad project](https://www.youtube.com/watch?v=iC3a5C4R820)
+* [Add footprint libraries to KiCad project](https://www.youtube.com/watch?v=CBfGG5TKc6o)
+* [Add 3D models to KiCad](https://www.youtube.com/watch?v=aqCzmXq5bb0)
 
 ### Hardware
 
